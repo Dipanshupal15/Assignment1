@@ -1,0 +1,27 @@
+Answer-1) A Single Page Application is a web application or site that functions within a single web page. Instead of loading entirely new pages from the server. SPAs dynamically update the content as user interact, offering a seamless and more responsive user experience.
+
+Answer-2) DNS stands for Domain Name System. It's like the internet's phone book, translating domain names (like google.com) into IP addresses, which computers use to communicate with each other over the Internet. 
+          An IP address, short for Internet Protocol address, is a unique numerical label assigned to each device connected to a computer network that uses the IP for communication.
+
+Answer-3) Document Object Model, in JS is a representatio of the sturcture of a web page. It provides a way for programs to manipulate the content, structure, and style of web pages. The DOM represents the page as a tree of objects where each node is an object representing a part of the page, such as elements, attributes, and text. JS can interact with DOM to dynamically change the content or appearance of a web page without having to reload the entire page.
+
+Answer-4) React JS is a popular JS library used for building user interfaces. It's maintained by Facebook and a community of developers. React simplifies the process of creating interactive UIs by breaking them down into reusable components.
+          To clarify, React is not used 'in place of JS'. Rather, It's a library that works with JS to make it easier to create complex UIs by managing the DOM efficiently and providing a component based architecture. 
+
+Answer-5) JSX stands for JS and XML. It's a syntax extension for JS, often used with React, that allows developers to write HTML like code directly within JS. JSX simplifies the process of writing React components by enabling the mixing of HTML like code with JS logic. It provides a more readable and concise way to describe the structure of UI components. Under the hood, JSX gets transpited into regular JS by tools before it's interpreted by the browser.
+
+Answer-6) package.json is a file used in Node.js projects to manage metadata and dependencies. It contains various details about the project, such as its name, version, entry point, and a list of dependencies required for the project to run.
+
+Answer-7) React is a Js library used for building user interfaces, primarily for web applications. It's maintained by Facebook and a community of developers.
+          React Native, on the other hand is a framework used for building mobile applications. It's based on React and allows developers to create mobile apps using JS and React principles. React Native enables the development of cross-platform mobile applicationsof iOS and Android while sharing a significant amount of codebase between them.
+
+Answer-8) CLASS COMPONENTS:
+
+      (i) Traditionally, class components were the primary way of creating components in React. They are ES6 classes that extend from React.Component.
+     (ii) They have a render() method that returns the UI to be rendered based on the component's state and props.
+    (iii) Class components can have their own state, managed via this.state, and lifecycle method like componentDidMount, etc.
+
+          FUNCTION COMPONENTS:
+     (i)  Function component are simpler and more concise than class components. They are JS functions that accept props as inputs and return JSX elements. 
+    (ii)  They do not have their own state or lifecycle methods by default, but React introduced Hooks that allow function components to manage state and use lifecycle features. 
+   (iii)  With Hooks, function components can handle state and lifecycle behaviours similarly to class components.
